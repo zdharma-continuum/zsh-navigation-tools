@@ -5,6 +5,8 @@ PREFIX?=/usr/local
 SHARE_DIR?=$(DESTDIR)$(PREFIX)/share/$(NAME)
 DOC_DIR?=$(DESTDIR)$(PREFIX)/share/doc/$(NAME)
 
+all:
+
 install:
 	$(INSTALL) -d $(SHARE_DIR)
 	$(INSTALL) -d $(SHARE_DIR)/.config
