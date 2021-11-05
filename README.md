@@ -9,8 +9,7 @@
 # Zsh Navigation Tools
 
 Also check out [![ZCA](http://imageshack.com/a/img911/8084/qSpO8a.png) Zsh Command Architect](https://github.com/psprint/zsh-cmd-architect)
-and [Zconvey](https://github.com/psprint/zconvey)
-
+and [Zconvey](https://github.com/zdharma-continuum/zconvey)
 
 
 Videos:
@@ -143,13 +142,13 @@ After installing and reloading shell give `ZNT` a quick try with `Ctrl-R` – th
 ## Installation With [Zplugin](https://github.com/psprint/zplugin)
 Add `zplugin load psprint/zsh-navigation-tools` to `.zshrc`. The config files will be in `~/.config/znt`.
 
-## Installation With Zgen
+## Installation With Zgenom/Zgen
 
-Add `zgen load psprint/zsh-navigation-tools` to `.zshrc` and issue a `zgen reset` (this assumes that there is a proper `zgen save` construct in `.zshrc`).
+Add `zgen load zdharma-continuum/zsh-navigation-tools` to `.zshrc` and issue a `zgen reset` (this assumes that there is a proper `zgen save` construct in `.zshrc`).
 The config files will be available in `~/.config/znt`.
 
 ## Installation With Antigen
-Add `antigen bundle psprint/zsh-navigation-tools` to `.zshrc`. There also
+Add `antigen bundle zdharma-continuum/zsh-navigation-tools` to `.zshrc`. There also
 should be `antigen apply`. The config files will be in `~/.config/znt`.
 
 ## Single File Manual Installation
