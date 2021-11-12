@@ -7,8 +7,8 @@
 
 # Zsh Navigation Tools
 
-Also check out [![ZCA](http://imageshack.com/a/img911/8084/qSpO8a.png) Zsh Command Architect](https://github.com/psprint/zsh-cmd-architect)
-and [Zconvey](https://github.com/psprint/zconvey)
+Also check out [![ZCA](http://imageshack.com/a/img911/8084/qSpO8a.png) Zsh Command Architect](https://github.com/zdharma-continuum/zsh-cmd-architect)
+and [Zconvey](https://github.com/zdharma-continuum/zconvey)
 
 
 
@@ -106,10 +106,10 @@ history management and various integrations with `Zsh`.
 
 * 30-04-2016
   - New feature: color themes. Use `Ctrl-T` and `Ctrl-G` to browse predefined
-    themes. They are listed in [~/.config/znt/n-list.conf](https://github.com/psprint/zsh-navigation-tools/blob/master/.config/znt/n-list.conf).
+    themes. They are listed in [~/.config/znt/n-list.conf](https://github.com/zdharma-continuum/zsh-navigation-tools/blob/master/.config/znt/n-list.conf).
     Use the file to permanently set a color scheme. Also, I sent a patch to Zsh developers
     and starting from Zsh > 5.2 (not yet released) supported will be 256 colors.
-    The file [~/.config/znt/n-list.conf](https://github.com/psprint/zsh-navigation-tools/blob/master/.config/znt/n-list.conf)
+    The file [~/.config/znt/n-list.conf](https://github.com/zdharma-continuum/zsh-navigation-tools/blob/master/.config/znt/n-list.conf)
     already has set of 256-color themes prepared :)
 
     ![themes](http://imageshack.com/a/img924/4310/EbRh30.gif)
@@ -129,7 +129,7 @@ history management and various integrations with `Zsh`.
 ## Installation
 
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/psprint/zsh-navigation-tools/master/doc/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma-continuum/zsh-navigation-tools/master/doc/install.sh)"
 ```
 
 To update run the command again.
@@ -139,16 +139,16 @@ will be updated with only `8` lines of code, which will be added at the bottom.
 
 After installing and reloading shell give `ZNT` a quick try with `Ctrl-R` – this keyboard shortcut will open `n-history`.
 
-## Installation With [Zplugin](https://github.com/psprint/zplugin)
-Add `zplugin load psprint/zsh-navigation-tools` to `.zshrc`. The config files will be in `~/.config/znt`.
+## Installation With [Zinit](https://github.com/zdharma-continuum/zinit)
+Add `zinit load zdharma-continuum/zsh-navigation-tools` to `.zshrc`. The config files will be in `~/.config/znt`.
 
 ## Installation With Zgen
 
-Add `zgen load psprint/zsh-navigation-tools` to `.zshrc` and issue a `zgen reset` (this assumes that there is a proper `zgen save` construct in `.zshrc`).
+Add `zgen load zdharma-continuum/zsh-navigation-tools` to `.zshrc` and issue a `zgen reset` (this assumes that there is a proper `zgen save` construct in `.zshrc`).
 The config files will be available in `~/.config/znt`.
 
 ## Installation With Antigen
-Add `antigen bundle psprint/zsh-navigation-tools` to `.zshrc`. There also
+Add `antigen bundle zdharma-continuum/zsh-navigation-tools` to `.zshrc`. There also
 should be `antigen apply`. The config files will be in `~/.config/znt`.
 
 ## Single File Manual Installation
@@ -193,7 +193,7 @@ alias naliases=n-aliases ncd=n-cd nenv=n-env nfunctions=n-functions nhistory=n-h
 alias nkill=n-kill noptions=n-options npanelize=n-panelize nhelp=n-help
 ```
 
-Don't forget to copy [configuration files](https://github.com/psprint/zsh-navigation-tools/tree/master/.config/znt). They should go to `~/.config/znt`. Moreover, `n-cd` works together with option `AUTO_PUSHD` and you should have:
+Don't forget to copy [configuration files](https://github.com/zdharma-continuum/zsh-navigation-tools/tree/master/.config/znt). They should go to `~/.config/znt`. Moreover, `n-cd` works together with option `AUTO_PUSHD` and you should have:
 
 ```zsh
 setopt AUTO_PUSHD
@@ -396,7 +396,7 @@ The same with doing any non-typical Zsh Navigation Tools installation.
 
 ## More
 
-- be aware of [this](https://github.com/psprint/zsh-navigation-tools/blob/f49f910d239ae5bc6e1a5bb34930307b4f4e3ffe/zsh-navigation-tools.plugin.zsh#L35-L49)
+- be aware of [this](https://github.com/zdharma-continuum/zsh-navigation-tools/blob/f49f910d239ae5bc6e1a5bb34930307b4f4e3ffe/zsh-navigation-tools.plugin.zsh#L35-L49)
 
 # Fixing tmux, screen and linux vt
 
