@@ -4,9 +4,7 @@
 
 ![znt logo](http://imageshack.com/a/img905/2629/WK9qjN.png)
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D6XDCHDSBDSDG)
-
-# Zsh Navigation Tools
+# Zsh Navigation Tools [![Gitter][gitter-image]][gitter-link]
 
 Also check out [![ZCA](http://imageshack.com/a/img911/8084/qSpO8a.png) Zsh Command Architect](https://github.com/psprint/zsh-cmd-architect)
 and [Zconvey](https://github.com/psprint/zconvey)
@@ -399,14 +397,6 @@ The same with doing any non-typical Zsh Navigation Tools installation.
 
 - be aware of [this](https://github.com/psprint/zsh-navigation-tools/blob/f49f910d239ae5bc6e1a5bb34930307b4f4e3ffe/zsh-navigation-tools.plugin.zsh#L35-L49)
 
-## IRC Channel
-
-Channel `#zplugin@freenode` is a support place for all author's projects. Connect to:
-[chat.freenode.net:6697](ircs://chat.freenode.net:6697/%23zplugin) (SSL) or [chat.freenode.net:6667](irc://chat.freenode.net:6667/%23zplugin)
- and join #zplugin.
-
-Following is a quick access via Webchat [![IRC](https://kiwiirc.com/buttons/chat.freenode.net/zplugin.png)](https://kiwiirc.com/client/chat.freenode.net:+6697/#zplugin)
-
 # Fixing tmux, screen and linux vt
 
 If `TERM=screen-256color` (often a case for `tmux` and `screen` sessions) then
@@ -429,3 +419,5 @@ It will not display underline properly, but will instead highlight by a color,
 which is quite nice. The same will not work for FreeBSD's vt, `ZNT` will detect
 if that vt is used and will revert to highlighting elements via `reverse` mode.
 
+[gitter-image]: https://badges.gitter.im/zdharma-continuum/community.svg
+[gitter-link]: https://gitter.im/zdharma-continuum/community
