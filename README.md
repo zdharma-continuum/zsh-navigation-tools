@@ -142,7 +142,7 @@ After installing and reloading shell give `ZNT` a quick try with `Ctrl-R` – th
 ## Installation With [Zinit](https://github.com/zdharma-continuum/zinit)
 Add `zinit load zdharma-continuum/zsh-navigation-tools` to `.zshrc`. The config files will be in `~/.config/znt`.
 
-## Installation With Zgen
+## Installation With Zgenom/Zgen
 
 Add `zgen load zdharma-continuum/zsh-navigation-tools` to `.zshrc` and issue a `zgen reset` (this assumes that there is a proper `zgen save` construct in `.zshrc`).
 The config files will be available in `~/.config/znt`.
