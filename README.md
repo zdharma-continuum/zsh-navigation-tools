@@ -1,10 +1,11 @@
 [![License (GPL version 3)](https://img.shields.io/badge/license-GNU%20GPL%20version%203-blue.svg?style=flat-square)](./LICENSE)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](./LICENSE)
 ![ZSH 5.0.0](https://img.shields.io/badge/zsh-v5.0.0-orange.svg?style=flat-square)
+[![Gitter][gitter-image]][gitter-link]
 
 ![znt logo](http://imageshack.com/a/img905/2629/WK9qjN.png)
 
-# Zsh Navigation Tools [![Gitter][gitter-image]][gitter-link]
+# Zsh Navigation Tools
 
 Also check out [![ZCA](http://imageshack.com/a/img911/8084/qSpO8a.png) Zsh Command Architect](https://github.com/psprint/zsh-cmd-architect)
 and [Zconvey](https://github.com/psprint/zconvey)
